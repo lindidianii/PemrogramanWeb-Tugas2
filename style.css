@@ -81,10 +81,12 @@ button:hover {
 .intro-beranda {
     font-size: 55px;
     font-family: "Cooper Black";
+    margin-left: 10%;
 }
 .beranda {
     font-size: 15px;
     font-family: 'Times New Roman';
+    margin-left: 10%;
 }
 .intro-kontak {
     text-align: center;
