@@ -1,0 +1,154 @@
+body {
+    font-family: "Popins";
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    margin-top: 32px;
+}
+.wrapper {
+    display: flex;
+    gap: 18px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfe0d7;
+    padding: 40px;
+    box-shadow: 0px 4 px 8px rgba(0, 0, 0, 0,1);
+    border-radius: 10px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 16px;
+    gap: 16px;
+}
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #809671;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: 130px;
+}
+button:hover {
+    background-color: #49592a;
+}
+.img {
+    display: block;
+    width: 110px;
+    height: 150px;
+    object-fit: cover;
+    margin-block: 10px;
+}
+.nama {
+    font-size: 20px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 13px;
+    margin-top: 8px;
+}
+.social-icons a {
+    color: #a3a6a7;
+}
+.social-icons a:hover {
+    color: #333;
+}
+.frame-container {
+    max-width: 420px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    overflow-y: auto;
+}
+.scrollable {
+    overflow-y: auto;
+}
+.intro-beranda {
+    font-size: 55px;
+    font-family: "Cooper Black";
+}
+.beranda {
+    font-size: 15px;
+    font-family: 'Times New Roman';
+}
+.intro-kontak {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Cooper Black";
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+p {
+    margin-top: 0;
+}
+.form-group {
+    width: 100%;
+} 
+label {
+    display: block;
+}
+.kotak-input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+textarea {
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+::placeholder {
+    font-family: "Courier New";
+}
+select {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+}
+footer {
+    color:slategray;
+    font-size: 10px;
+}
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        margin: 0;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .menu {
+        flex-direction: row;
+        gap: 8px;
+    }
+    .menu button {
+        width: 80px;
+    }
+}
